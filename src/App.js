@@ -13,13 +13,13 @@ const App = () => {
   const [hasAccount, setHasAccount] = useState(false);
 
   const clearInputs = () => {
-    setEmail('');
-    setPassword('');
+    setEmail("");
+    setPassword("");
   };
 
   const clearErrors = () => {
-    setEmailError('');
-    setPasswordError('');
+    setEmailError("");
+    setPasswordError("");
   };
 
   const handleLogin = () => {
